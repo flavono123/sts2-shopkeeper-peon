@@ -3,7 +3,7 @@
   "name": "sts2_shopkeeper",
   "display_name": "Slay the Spire 2 Shop Keeper",
   "description": "Merchant and Reverse Merchant voice lines from Slay the Spire 2 — shop keeper grunts, thanks, and disappointed grumbles",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "flavono123",
     "github": "flavono123"
@@ -13,57 +13,165 @@
   "categories": {
     "session.start": {
       "sounds": [
-        { "file": "sounds/merchant_welcome_1.wav", "label": "Welcome 1", "sha256": "27e7b682f823d4ad07841c166ffcc50b1e6247583f15f7f51c05452d6679d2d5" },
-        { "file": "sounds/merchant_welcome_2.wav", "label": "Welcome 2", "sha256": "07fd94308798109e736f49abdeb99564b3d350ac4452696171049f21862e4b54" },
-        { "file": "sounds/merchant_welcome_3.wav", "label": "Welcome 3", "sha256": "d69be8c45dc90bff34a842777735b42a6da11640974cda015c78f45f78ffec1b" },
-        { "file": "sounds/merchant_welcome_4.wav", "label": "Welcome 4", "sha256": "5ddb9974fd4369ca513b19b7611dbc8b30ea20092a9baba89be97a1dc210ff9c" }
+        {
+          "file": "sounds/merchant_welcome_1.wav",
+          "label": "Welcome 1",
+          "sha256": "c2276bfeb58dd3b68d4661c19c92dd38532d59101ec8f2fe9ee777b8228011b4"
+        },
+        {
+          "file": "sounds/merchant_welcome_2.wav",
+          "label": "Welcome 2",
+          "sha256": "0da48d4468a653920d08e57a0e8b0096d493fc82482e075b04e4b4ddacb9817f"
+        },
+        {
+          "file": "sounds/merchant_welcome_3.wav",
+          "label": "Welcome 3",
+          "sha256": "fc76eb8f8fb583ecaf6d384b75b3cb64123354d87269cdad99a0ec8cb0a536c4"
+        },
+        {
+          "file": "sounds/merchant_welcome_4.wav",
+          "label": "Welcome 4",
+          "sha256": "c9064903855dc567100e5cb85f92b11d87dd459abdc90bb3e6da5e7858d31327"
+        }
       ]
     },
     "task.acknowledge": {
       "sounds": [
-        { "file": "sounds/merchant_laughter_1.wav", "label": "Laughter 1", "sha256": "005c1683d8395529bb735756a8e97573db8636b85cc83fa197947ae7dcdc09bb" },
-        { "file": "sounds/merchant_laughter_2.wav", "label": "Laughter 2", "sha256": "d7d6ce1f9189eae773cc9e2c7ce6312307f6753db9c51fa79ea13a0f212b7654" }
+        {
+          "file": "sounds/merchant_laughter_1.wav",
+          "label": "Laughter 1",
+          "sha256": "a9de5832466ad188fa2050ad0ffe77de3b30329e256029f3860b252a65b9c5fb"
+        },
+        {
+          "file": "sounds/merchant_laughter_2.wav",
+          "label": "Laughter 2",
+          "sha256": "96c98d67806981da78b1be722f0047806df8ca322b5e9db81ffd9fa4c9bb4a0f"
+        }
       ]
     },
     "task.complete": {
       "sounds": [
-        { "file": "sounds/merchant_thank_yous_1.wav", "label": "Thanks 1", "sha256": "4ec12975ed1e9ccd938c7a87ef83716517fac30706eac8f2a80aad0b89584bc9" },
-        { "file": "sounds/merchant_thank_yous_2.wav", "label": "Thanks 2", "sha256": "c5d8c91985257f951141fb52fa4553c327539f396299e9a2f8654b697942a84e" },
-        { "file": "sounds/merchant_thank_yous_3.wav", "label": "Thanks 3", "sha256": "488c64796c2d18f8c022d24b443391ac0ff21a8bfd9018083ccb3c06f4fb0370" }
+        {
+          "file": "sounds/merchant_thank_yous_1.wav",
+          "label": "Thanks 1",
+          "sha256": "19a2d9effdcf9ddb34bab9bd7b06053826613c8e2ebcd3a932efbb8d2151875f"
+        },
+        {
+          "file": "sounds/merchant_thank_yous_2.wav",
+          "label": "Thanks 2",
+          "sha256": "a4f51605e688cd0b851b5de39d39c8bf2f4c000bf11cb25fbec8b6975025df83"
+        },
+        {
+          "file": "sounds/merchant_thank_yous_3.wav",
+          "label": "Thanks 3",
+          "sha256": "eee1c83a219164281d9fc1a07213cd95b76700ec648c1a85de550e78677f0d4a"
+        }
       ]
     },
     "task.error": {
       "sounds": [
-        { "file": "sounds/merchant_disappointment_1.wav", "label": "Disappointment 1", "sha256": "b642927b64ef9034226be6300344002b9637a10691e9b7b44efd0096d2658a86" },
-        { "file": "sounds/merchant_disappointment_2.wav", "label": "Disappointment 2", "sha256": "88ff8f6e7e34f461c7690f5a3d248e06b1cd60d7f18847b6b602a5e978a118c1" },
-        { "file": "sounds/merchant_disappointment_3.wav", "label": "Disappointment 3", "sha256": "0958b6665ccf96da127682f5673fedd760863573e31b40f3dbd4b7623719e1ef" }
+        {
+          "file": "sounds/merchant_disappointment_1.wav",
+          "label": "Disappointment 1",
+          "sha256": "3b255ced3148f59bfafa7321c1bee3942fc479a5d1ac2e7b483fa2b0e61b6479"
+        },
+        {
+          "file": "sounds/merchant_disappointment_2.wav",
+          "label": "Disappointment 2",
+          "sha256": "7dbc82b2cc5d85029a717b3f205e61982bb1418fa371a3b2e1f55f9d9c3be81b"
+        },
+        {
+          "file": "sounds/merchant_disappointment_3.wav",
+          "label": "Disappointment 3",
+          "sha256": "ec030f9afd059f5b8390308d55bf9cc0a561022b82e8e216d3668c6894cc65b9"
+        }
       ]
     },
     "input.required": {
       "sounds": [
-        { "file": "sounds/merchant_passive_1.wav", "label": "Passive hum 1", "sha256": "cfe4ea5fc15fd6b99f5d203539acea0264a00d35a29d91b275381926acd49334" },
-        { "file": "sounds/merchant_passive_2.wav", "label": "Passive hum 2", "sha256": "7c1048f946903a67211d0ddfb6f0d145f80eb8ffc6cff5d7bd0bf272798c0c9b" }
+        {
+          "file": "sounds/merchant_passive_1.wav",
+          "label": "Passive hum 1",
+          "sha256": "5aad2a5e79cd257f06009eadfa7096eb8aecb488c1e2d25f14e0629a12e6e458"
+        },
+        {
+          "file": "sounds/merchant_passive_2.wav",
+          "label": "Passive hum 2",
+          "sha256": "d47b50752e1b9594d960f8bf92a9f3f94600915e6785189d71eedc37edd2728e"
+        }
       ]
     },
     "resource.limit": {
       "sounds": [
-        { "file": "sounds/reverse_merchant_hurt_sad_1.wav", "label": "Fake merchant hurt 1", "sha256": "963b37e54df9c3eba6f7a93c15f476334fdaddb0870545ce09d1d30763dfcc7f" },
-        { "file": "sounds/reverse_merchant_hurt_sad_2.wav", "label": "Fake merchant hurt 2", "sha256": "d40b3779398d8cabc21f9005df8532786428e58429995f723b1c18e707537f51" },
-        { "file": "sounds/reverse_merchant_hurt_sad_3.wav", "label": "Fake merchant hurt 3", "sha256": "626aadb9590855d60124b327d0bdedd216d4bb670097302f0729c9a0b7ec8281" },
-        { "file": "sounds/reverse_merchant_hurt_sad_4.wav", "label": "Fake merchant hurt 4", "sha256": "8c5fe9698459205bf5c125ab6e9392b82c2c1467f171f13952219bc7659bd4ad" },
-        { "file": "sounds/reverse_merchant_die_1.wav",      "label": "Fake merchant dying 1", "sha256": "3f99d7c8d502f21840de5a5f727f0dab0665336ba048cffc8e2489433229549e" },
-        { "file": "sounds/reverse_merchant_die_2.wav",      "label": "Fake merchant dying 2", "sha256": "187497c9e2a3861c394edc70886db8fbb45a2c543a6e7b6f0cb4fa10e5cc26ba" },
-        { "file": "sounds/reverse_merchant_die_3.wav",      "label": "Fake merchant dying 3", "sha256": "368f7132c968f4f6cdbb56e4cd7291a08d197ef9c10d1df886347156337c5f75" }
+        {
+          "file": "sounds/reverse_merchant_hurt_sad_1.wav",
+          "label": "Fake merchant hurt 1",
+          "sha256": "adc589734af65da417e56428ea9f4bfdefe29e9d65ff3aee62b952e97cc48a12"
+        },
+        {
+          "file": "sounds/reverse_merchant_hurt_sad_2.wav",
+          "label": "Fake merchant hurt 2",
+          "sha256": "604021902981e2b1be3d553bb8f7d340c2aa0c6f4bced2fa6bdc571d051e2828"
+        },
+        {
+          "file": "sounds/reverse_merchant_hurt_sad_3.wav",
+          "label": "Fake merchant hurt 3",
+          "sha256": "dec42ed219875121da6a9c62af23523e450b54daf444dfe830907aed1042d254"
+        },
+        {
+          "file": "sounds/reverse_merchant_hurt_sad_4.wav",
+          "label": "Fake merchant hurt 4",
+          "sha256": "e6e743a3993f8b2d47406ceefdc7acd4febca9de7d76245f16c9658e9c71ebd7"
+        },
+        {
+          "file": "sounds/reverse_merchant_die_1.wav",
+          "label": "Fake merchant dying 1",
+          "sha256": "4c5df755a900621c49bc5c48903d277042b79b7f833bb41538e0800c4e237555"
+        },
+        {
+          "file": "sounds/reverse_merchant_die_2.wav",
+          "label": "Fake merchant dying 2",
+          "sha256": "3c85f76c576d439b832840508ea28b9169aa743f8bd41130c4c22a0c4fa13e25"
+        },
+        {
+          "file": "sounds/reverse_merchant_die_3.wav",
+          "label": "Fake merchant dying 3",
+          "sha256": "0dcb2ba19cbed4d6b91796aeab87eb47712f33c2d6fb73fcbcc8997cddaf9751"
+        }
       ]
     },
     "user.spam": {
       "sounds": [
-        { "file": "sounds/reverse_merchant_hehe_1.wav", "label": "Fake merchant heckle 1", "sha256": "7458a5b6f0aaa8e1af0b922e2ae8a3e457deeffc587c7e59557b501b456a4800" },
-        { "file": "sounds/reverse_merchant_hehe_2.wav", "label": "Fake merchant heckle 2", "sha256": "d9d0f83ebf1221982cb16504ee83453f242673882f2f6a136b9c0f9a303902b0" },
-        { "file": "sounds/reverse_merchant_hehe_3.wav", "label": "Fake merchant heckle 3", "sha256": "b19030af85b7f09c9d70a48762b2e299ea02ae42c05bd9aae1ca1400afc9532c" },
-        { "file": "sounds/reverse_merchant_hehe_4.wav", "label": "Fake merchant heckle 4", "sha256": "629d9ffd8fe10b22a6e5772815d6290ba5e4fb3df72f865740909581df994e09" },
-        { "file": "sounds/reverse_merchant_hehe_5.wav", "label": "Fake merchant heckle 5", "sha256": "571e5259c1697a0f75db161c71dc0a8c534f6c9f7d6d87271276d164cb5cd2a8" },
-        { "file": "sounds/reverse_merchant_hehe_6.wav", "label": "Fake merchant heckle 6", "sha256": "95a80a7ae5472dd3f0fa623770e75b263e65669a7d63a9f6afef35379e8f7fdf" }
+        {
+          "file": "sounds/reverse_merchant_hehe_1.wav",
+          "label": "Fake merchant heckle 1",
+          "sha256": "f0270d6ca3a7f1579226b2d6c4ce7d242029109925e345f64e7218293c6dac6a"
+        },
+        {
+          "file": "sounds/reverse_merchant_hehe_2.wav",
+          "label": "Fake merchant heckle 2",
+          "sha256": "00c6f34020cb616dacfc9abafbfbaba70fc8e94b5b4e3ee1b4677ddad947ea96"
+        },
+        {
+          "file": "sounds/reverse_merchant_hehe_3.wav",
+          "label": "Fake merchant heckle 3",
+          "sha256": "86280b4f4a938652241eb03816912a1904390f5329d1ef5ffc8226441726b076"
+        },
+        {
+          "file": "sounds/reverse_merchant_hehe_4.wav",
+          "label": "Fake merchant heckle 4",
+          "sha256": "ee6aa94be37cf2d42c7f44050a07d487c0e1a23f15c52ebafe72da358cbe6047"
+        },
+        {
+          "file": "sounds/reverse_merchant_hehe_5.wav",
+          "label": "Fake merchant heckle 5",
+          "sha256": "ff939394658293746caafde65ce09f85c6adba45a6631acce71452918ded7cbd"
+        },
+        {
+          "file": "sounds/reverse_merchant_hehe_6.wav",
+          "label": "Fake merchant heckle 6",
+          "sha256": "b5a1a5cb09b4bcfbc738b9ee0bde0e63cd1670f7a0024f9facab9d61a2f315d2"
+        }
       ]
     }
   }
